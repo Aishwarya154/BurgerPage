@@ -1,0 +1,132 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+/* Header section styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #32de84; 
+    height: 60px; 
+}
+
+/* Logo and navigation styles */
+.logo, nav {
+    height: 100%;
+}
+
+/* Yellow background style for the logo */
+.yellow-bg {
+    background-color: #ffd700; 
+    width: 50%; 
+}
+
+/* Sea green background style for the navigation */
+.green-bg {
+    background-color:#00CED1; 
+    width: 50%; 
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px 20px 20px 100px; 
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 30px; 
+  
+}
+
+nav a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+
+main.layout {
+    display: flex;
+    height: 100vh;
+}
+
+
+.left-side {
+    background-color: #ffd700; 
+    width: 50%; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+
+.right-side {
+    background-color:#00CED1; 
+    width: 50%; 
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.hero {
+    text-align: center; 
+}
+
+
+.now-serving-text {
+    font-size: 4em; 
+    font-family: sans-serif;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 2px red; 
+    margin-top: -70px; 
+    line-height: 0.2em; 
+}
+
+
+.hero h2, .hero h3 {
+    font-size: 3.5em; 
+    font-weight: bold; 
+    color: red; 
+    margin: 0; 
+    margin-top: 5px; 
+}
+
+  
+.navigation-arrows {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    
+    justify-content: center;
+  
+}
+
+.arrow {
+    font-size: 24px; 
+    color: #FF0000; 
+    padding: 10px; 
+    cursor: pointer; 
+    border: 2px solid red; 
+    border-radius: 50%; 
+    width: 24px; 
+    height: 24px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 10px;
+}
+
+

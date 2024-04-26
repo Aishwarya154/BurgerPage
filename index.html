@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Hugs Burger</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Global styles */
+        body, html {
+            height: 100%; /* Ensure body and HTML take up the full height */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        /* Header section styles */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #32de84; 
+            height: 60px; /* Maintain height */
+            width: 100%; /* Width takes the entire viewport */
+        }
+
+        /* Main layout styles */
+        main.layout {
+            display: flex;
+            height: 100vh; /* Full viewport height */
+        }
+
+        /* Left side content */
+        .left-side {
+            background-color: #ffd700; 
+            width: 50%; /* Takes up half the width */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+            text-align: center;
+        }
+
+        /* Right side content */
+        .right-side {
+            background-color: #00CED1; 
+            width: 50%; /* Takes up half the width */
+            padding: 20px;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+        }
+
+        /* Navigation arrows */
+        .navigation-arrows {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .arrow {
+            font-size: 24px; 
+            color: #FF0000; 
+            padding: 10px; 
+            cursor: pointer; 
+            border: 2px solid red; 
+            border-radius: 50%; 
+            width: 24px; 
+            height: 24px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            margin: 0 10px; /* Spacing between arrows */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container header">
+            <div class="logo yellow-bg">
+                <img src="logo.png" alt="McDonald's Logo" height="50" style="margin-left: 80px; margin-top: 15px;">
+            </div>
+            <nav class="nav green-bg">
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Happy Meal</a></li>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">McDelivery</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="layout">
+        <div class="left-side yellow-bg">
+            <div class="hero">
+                <h1 class="now-serving-text">Now Serving</h1>
+                <h2 class="text-red bold-text">Two Good</h2>
+                <h3 class="text-red bold-text">Two Be True</h3>
+                <div class="navigation-arrows">
+                    <div class="arrow left-arrow">&lt;</div>
+                    <div class="arrow right-arrow">&gt;</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right side content -->
+        <div class="right-side green-bg">
+            <div style="padding: 20px; text-align: center;">
+                <!-- Add the text "The" and "Big" in a stacked manner -->
+                <h1 style="font-size: 30px; font-weight: bold; color: white; margin: 0; transform: skewX(-20deg);">The</h1>
+                <h1 style="font-size: 120px; font-weight: bold; color: white; margin: -20px 0 0 -10px; transform: skewX(-20deg);">Big</h1>
+
+                <img src="burger.png" alt="Burger" class="green-section-image">
+                <div style="padding: 20px; text-align: center;">
+                    <h1 style="font-size: 110px; font-weight: bold; color: white; margin: -10px; transform: skewX(-20deg);">hug</h1>
+                    <h1 style="font-size: 30px; font-weight: bold; color: white; margin: -20px 0 0 -120px; transform: skewX(0deg);">burger</h1>
+                    <p style="font-size: 18px; color: white; margin-top: -120px; margin-left: 400px; font-weight: bold; transform: skewY(-10deg) rotate(-10deg);">
+                        Two yummy patties<br>
+                        Squeezed together<br>
+                        in one tight hug
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
+
+  
